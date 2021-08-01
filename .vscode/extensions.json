@@ -1,0 +1,16 @@
+{
+  // このワークスペースのユーザーに推奨される拡張機能のリストです
+  "recommendations": [
+    "coenraads.bracket-pair-colorizer",
+    "dbaeumer.vscode-eslint",
+    "esbenp.prettier-vscode",
+    "msjsdiag.debugger-for-chrome",
+    "oderwat.indent-rainbow",
+    "stylelint.vscode-stylelint",
+    "VisualStudioExptTeam.vscodeintellicode",
+    "vscode-icons-team.vscode-icons",
+    "wix.vscode-import-cost"
+  ],
+  // VS Codeで推奨されている拡張機能のうち、このワークスペースのユーザーには推奨されないもののリスト。
+  "unwantedRecommendations": []
+}
