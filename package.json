@@ -3,10 +3,17 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "next dev",
-    "build": "next build",
-    "start": "next start",
-    "lint": "next lint"
+    "ci": "yarn install --frozen-lockfile",
+    "dev:na": "TARGET=na next dev -p 4040",
+    "dev:local": "TARGET=local next dev -p 4040",
+    "dev:docker": "TARGET=docker next dev -p 4040",
+    "dev:dev": "TARGET=dev next dev -p 4040",
+    "dev:stg": "TARGET=stg next dev -p 4040",
+    "dev:prod": "TARGET=prod next dev -p 4040",
+    "build:dev": "TARGET=dev next build && TARGET=dev next export",
+    "build:stg": "TARGET=stg next build && TARGET=stg next export",
+    "build:prod": "TARGET=prod next build && TARGET=prod next export",
+    "start": "next start"
   },
   "dependencies": {
     "@types/styled-components": "^5.1.11",
