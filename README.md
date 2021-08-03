@@ -23,3 +23,8 @@ $ yarn build:dev    # Develop環境向けにビルド
 $ yarn build:stg    # STG環境向けにビルド
 $ yarn build:prod   # Production環境向けにビルド
 ```
+
+## 共通パラメータの取扱い
+### 全共通のパラメータかつ機密情報ではないもの
+.envファイルに記載していく
+NEXT_PUBLIC_をプレフィックス
